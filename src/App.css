@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+header {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 25px;
+	background-color: #3c3c3c;
+	border-bottom: 3px solid rgb(16, 27, 124);
+}
+
+header h1 {
+	color: #EEE;
+	font-size: 80px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.topics {
+  width: 100%;
+}
+
+.title {
+  background: rgb(121, 33, 33);
+  color: darkorange;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 30px;
+  border-bottom: 1px solid rgb(85, 148, 13);
+}
+
+.title:hover {
+  background: rgb(109, 65, 65);
+  color: rgb(65, 124, 30);
+  transition-duration: 0.5s;
+}
+
+.content {
+  opacity: 0;
+  max-height: 0;
+  display: none;
+  overflow-y: hidden;
+  transition: all 2s ease-out;
+}
+
+.topics .topic.open .content {
+  max-height: 1000px;
+  opacity: 1;
+}
