@@ -5,6 +5,7 @@
 
 .App {
   text-align: center;
+  background-color: darkorange;
 }
 
 .App-logo {
@@ -27,14 +28,13 @@
   color: #61dafb;
 }
 
-
-
 header {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	padding: 25px;
-	background-color: #3c3c3c;
+  padding: 25px;
+  background: rgb(121,33,33);
+  background: linear-gradient(0deg, rgba(121,33,33,1) 0%, rgba(96,96,96,1) 36%);
 	border-bottom: 3px solid rgb(16, 27, 124);
 }
 
@@ -47,6 +47,7 @@ header h1 {
 
 .topics {
   width: 100%;
+  flex-direction: row;
 }
 
 .title {
@@ -64,7 +65,7 @@ header h1 {
   transition-duration: 0.5s;
 }
 
-.content {
+.topics .topic .content {
   opacity: 0;
   max-height: 0;
   display: none;
@@ -75,4 +76,14 @@ header h1 {
 .topics .topic.open .content {
   max-height: 1000px;
   opacity: 1;
+}
+
+footer {
+  clear: left;
+  height: 200px;
+  padding-top: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  background: rgb(255,171,0);
+  background: linear-gradient(0deg, rgba(255,171,0,1) 46%, rgba(121,33,33,1) 85%);
 }

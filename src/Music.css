@@ -1,3 +1,37 @@
 .music {
-    background-color: white;
+    background-color: bisque;
+    text-align: center;
+    font-size: 35px;
+}
+
+table, tr, th {
+    border: 1px solid black
+}
+
+tbody , tr , td {
+    border: 1px solid black;
+
+}
+
+table {
+    font-size: 40px;
+    background-color: aquamarine;
+    background-position-x: 50%;
+}
+
+.musictable {
+    text-align: center;
+    padding-left: 325px;
+    
+}
+
+button {
+    background-color: darkgray;
+    border: 1px solid;
+    font-size: 50px;
+}
+
+button:hover {
+    background-color: rgb(54, 52, 52);
+    color: azure;
 }

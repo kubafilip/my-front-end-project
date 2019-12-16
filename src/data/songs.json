@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "artist": "Metallica",
+        "album": "Black Album",
+        "song": "Nothing Else Matters"
+    },
+    {
+        "id": "2",
+        "artist": "Queen",
+        "album": "A Night At The Opera",
+        "song": "Bohemian Rhapsody"
+    },
+    {
+        "id": "3",
+        "artist": "Led Zeppelin",
+        "album": "Led Zeppelin IV",
+        "song": "Stairway To Heaven"
+    },
+    {
+        "id": "4",
+        "artist": "The Rolling Stones",
+        "album": "Let It Bleed",
+        "song": "Gimme Shelter"
+    },
+    {
+        "id": "5",
+        "artist": "The Beatles",
+        "album": "Let It Be",
+        "song": "Let It Be"
+    },
+    {
+        "id": "6",
+        "artist": "Slayer",
+        "album": "Reign In Blood",
+        "song": "Raining Blood"
+    },
+    {
+        "id": "7",
+        "artist": "Rammstein",
+        "album": "Sehnsucht",
+        "song": "Du Hast"
+    },
+    {
+        "id": "8",
+        "artist": "Megadeth",
+        "album": "Countdown To Extinction",
+        "song": "Symphony Of Destruction"
+    },
+    {
+        "id": "9",
+        "artist": "Pink Floyd",
+        "album": "The Dark Side Of The Moon",
+        "song": "Money"
+    },
+    {
+        "id": "10",
+        "artist": "Iron Maiden",
+        "album": "Fear of the Dark",
+        "song": "Fear of the Dark"
+    }
+]
