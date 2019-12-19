@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-import "./Movie.css";
-import ReactDOM from "react-dom";
+import "./styles/Movie.css";
+//import ReactDOM from "react-dom";
 
 
 const Title = ({moviesCount}) => {

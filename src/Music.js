@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./Music.css";
+import "./styles/Music.css";
 import MusicTable from "./MusicTable";
 
 import data from "./data/songs.json";

@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 export default function MusicTable(props) {
     return (
         <div className="musictable">

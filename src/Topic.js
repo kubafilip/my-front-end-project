@@ -2,15 +2,12 @@ import React from 'react'
 import {
 	Route,
 	NavLink,
-	HashRouter,
-	Switch,
-	useParams,
-	Link
+	Switch
    } from "react-router-dom";
    import Books from "./Books";
    import Music from "./Music";
    import Movie from './Movie';  
-import Header from './Header';
+//import Header from './Header';
 import InfiniteS from './InfiniteS';
 import Sport from './Sport';
 

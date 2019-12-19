@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import useInfiniteScroll from "./useInfiniteScroll";
-import "./List.css";
+import "./styles/List.css";
 
 const List = () => {
   const [listItems, setListItems] = useState(Array.from(Array(10).keys(), n => n + 1));

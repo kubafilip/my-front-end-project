@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./Sport.css";
+import "./styles/Sport.css";
 
 
 class Sport extends Component {

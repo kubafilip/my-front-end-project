@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react';
-import './App.css';
+import './styles/App.css';
 import {
   Route,
   NavLink,
