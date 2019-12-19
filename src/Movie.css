@@ -2,3 +2,24 @@
     background-color: white;
     text-align: center;
 }
+
+li.movie-list-item {
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: solid 3px rgb(85, 78, 38);
+    background-color: peru;   
+}
+
+li.movie-list-item:hover {
+    color: lightgreen;
+    background-color: rgb(196, 100, 22);
+}
+
+.clearAllButton {
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    float: left;
+}
+
+

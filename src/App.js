@@ -3,7 +3,8 @@ import './App.css';
 import {
   Route,
   NavLink,
-  HashRouter
+  HashRouter,
+  BrowserRouter as Router
  } from "react-router-dom";
 import Books from "./Books";
 import Music from "./Music";
@@ -11,26 +12,44 @@ import Movie from './Movie';
 import Header from "./Header";
 import Topic from "./Topic";
 import Footer from './Footer';
-
+import InfiniteS from "./InfiniteS";
+import Sport from "./Sport";
 function App () {
 
   const [topics, setTopic] = useState([
     {
       topic: 'Books',
       content: <Books/>,
+      link: Books,
       open: false
     },
     {
       topic: 'Music',
       content: <Music/>,
+      link: Music,
       open: false
     },
     {
       topic: 'Movies',
       content: <Movie/>,
+      link: Movie,
+      open: false
+    },
+    {
+      topic: 'Sport',
+      content: <Sport/>,
+      link: Sport,
+      open: false
+    },
+    {
+      topic: 'InfiniteS',
+      content: <InfiniteS/>,
+      link: InfiniteS,
       open: false
     }
   ]);
+
+  
 
   const toggleTopic = index => {
     setTopic(topics.map((topic, i) => {
@@ -52,19 +71,22 @@ function App () {
       return topic;
     }))
   }
-
+//<NavLink exact to="/" style={{textDecoration: 'none'}}>
   return (
-    <HashRouter>
+    <Router>
     <div className="App">
-      <NavLink exact to="/" style={{textDecoration: 'none'}}><Header/></NavLink>
+      <Header/>
+      
         <div className="topics">
           {topics.map((t, i) => (
             <Topic topic={t} index={i} toggleTopic={toggleTopic}/>
           ))}
-        </div>        
+        </div>
+              
       <Footer/>
     </div>
-    </HashRouter>
+    </Router>
+    
   );
 }
 

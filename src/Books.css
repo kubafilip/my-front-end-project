@@ -1,3 +1,18 @@
 .books {
     background-color: white;
+    text-align: left;
+    font-size: 30px;
+}
+
+ol{
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+ol >li {
+    font-size: 25px;
+}
+
+.booksPicture {
+    float: right;
 }

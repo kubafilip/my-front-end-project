@@ -1,0 +1,12 @@
+ul {
+    list-style-type: none;
+}
+.list-group-item{
+    border-bottom: 1px solid green;
+    font-size: 30px;
+}
+
+.list-group-item:hover {
+    background: rgb(143, 139, 139);
+    color: aquamarine;
+}

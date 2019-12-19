@@ -74,7 +74,7 @@ header h1 {
 }
 
 .topics .topic.open .content {
-  max-height: 1000px;
+  max-height: 10000px;
   opacity: 1;
 }
 
@@ -86,4 +86,8 @@ footer {
   font-size: 20px;
   background: rgb(255,171,0);
   background: linear-gradient(0deg, rgba(255,171,0,1) 46%, rgba(121,33,33,1) 85%);
+}
+
+.infList > p {
+  font-size: 50px;
 }
